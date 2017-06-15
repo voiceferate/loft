@@ -1,0 +1,15 @@
+.left-panel{
+	display: inline-block;
+	width: 26%;
+}
+
+.side-nav__list{
+	list-style: none;
+}
+
+.side-nav__list-item{
+	height: 4.5625em;
+	line-height: 4.5625em;
+	border-radius: 4px;
+	background-color:  #eff3f7;
+}

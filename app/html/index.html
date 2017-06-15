@@ -6,31 +6,33 @@
   <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
-  //= _header.html
-<!--   //= _aside_left.html -->
-  <section class="main-info">
-    <h2 class="info-header"></h2>
-    <div class="main-info__wrapper">
-      <div class="main-info__img"></div>
-      <ul class="main-info__list">
-        <li class="main-info__list-item">
-          <p class="main-info__text">Далеко-далеко за словесными горами.</p>
-        </li>
-        <li class="main-info__list-item">
-          <p class="main-info__text">Агенство щеке образ взобравшись.</p>
-        </li>
-        <li class="main-info__list-item">
-          <p class="main-info__text">От всех все, бросил о.</p>
-        </li>
-        <li class="main-info__list-item">
-          <p class="main-info__text">Первую пояс, приставка его.</p>
-        </li>
-        <li class="main-info__list-item">
-          <p class="main-info__text">Переулка рыбными lorem, свою.</p>
-        </li>
-      </ul>
-    </div>
-  </section>
-  //= _footer.html
+  @@include('./_header.html')
+  <div class="s-wrapper">
+    @@include('./_aside_left.html')
+    <section class="main-info">
+      <h2 class="info-header"></h2>
+      <div class="main-info__wrapper">
+        <div class="main-info__img"></div>
+        <ul class="main-info__list">
+          <li class="main-info__list-item">
+            <p class="main-info__text">Далеко-далеко за словесными горами.</p>
+          </li>
+          <li class="main-info__list-item">
+            <p class="main-info__text">Агенство щеке образ взобравшись.</p>
+          </li>
+          <li class="main-info__list-item">
+            <p class="main-info__text">От всех все, бросил о.</p>
+          </li>
+          <li class="main-info__list-item">
+            <p class="main-info__text">Первую пояс, приставка его.</p>
+          </li>
+          <li class="main-info__list-item">
+            <p class="main-info__text">Переулка рыбными lorem, свою.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+@@include('./_footer.html')
 </body>
 </html>
