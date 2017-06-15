@@ -3,8 +3,57 @@ header{
 	min-height: 119px;
 	margin: 0 auto;
 	background-color: #eff3f7;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .header__logo{
+	margin: 0;
+	display: block;
+	margin-left: 100px;
+	margin-top: 35px;
+}
 
+.header-list{
+	display: inline-block;
+	text-align: right;
+	margin: 35px 100px 28px 100px;
+}
+
+.header-list__list-item{
+	display: inline-block;
+	list-style: none;
+}
+
+.header-list__link{
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+}
+
+.header-list__link_vk{
+	background: transparent url('../images/socialbut_sprite_1.png') 0 0 no-repeat;
+}
+
+.header-list__link_twitter{
+	background: transparent url('../images/socialbut_sprite_1.png') -70px 0 no-repeat;
+}
+
+.header-list__link_fb{
+	background: transparent url('../images/socialbut_sprite_1.png') -141px 0 no-repeat;
+}
+
+.header-list__link_github{
+	background: transparent url('../images/socialbut_sprite_1.png') -212px 0 no-repeat;
+}
+
+.header__border{
+	height: 3px;
+	width: 100%;
+	background-image: linear-gradient(to right, rgba(28, 102, 122, 0.9) 0%, rgba(246, 250, 254, 0.9) 0%, rgba(216, 216, 216, 0.9) 0%, rgba(242, 246, 250, 0.9) 0%, rgba(28, 102, 122, 0.9) 48%, rgba(242, 246, 250, 0.9) 100%);
 }
