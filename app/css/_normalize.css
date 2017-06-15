@@ -103,6 +103,8 @@ pre {
 a {
   background-color: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
+  color: inherit;
+  text-decoration: none;
 }
 
 /**
@@ -444,4 +446,14 @@ template {
 
 [hidden] {
   display: none;
+}
+
+/*my styles*/
+
+ul, menu, dir{
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
 }

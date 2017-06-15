@@ -26,8 +26,8 @@ gulp.task('fileinclude', function() {
 gulp.task('concatCss', function () {
   return gulp.src('app/css/*.css')
     .pipe(concatCss("main.css"))
-	.pipe(cssnano())
-	.pipe(rename({suffix: '.min'}))
+	  .pipe(cssnano())
+	  .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('dist/css/'))
     .pipe(browserSync.reload({stream: true}));
 });

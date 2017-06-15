@@ -1,6 +1,7 @@
 body{
 	background: #fff url('../images/comppattern2.png') 0 0 repeat;
 	font-size: 1em;
+	font-family: 'fira_sansbook';
 }
 
 .s-wrapper{

@@ -12,4 +12,70 @@
 	line-height: 4.5625em;
 	border-radius: 4px;
 	background-color:  #eff3f7;
+	color:  #959aa8;
 }
+
+.side-nav__list-item:hover{
+	background-color:  #3ba8c0;
+	color: #fff;
+}
+
+.side-nav__link{
+	position: relative;
+	font-size: 1.3125em;/* Приближение из-за подстановки шрифтов */
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 25px;
+	width: 100%;
+	display: inline-block;
+	color: inherit;
+}
+
+.side-nav__link_active:after{
+	content: "";
+	position: absolute;
+	left: 14px;
+	bottom: -1px;
+	display: block;
+	width: 87%;
+	border-bottom: 2px solid #3ba8c0;
+}
+
+.side-info{
+	color:  #fff;
+	font-size: 1em;
+}
+
+.side-info__item{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 32%;
+}
+
+.side-info__item_caption{
+	padding-left: 0;
+}
+
+.side-info__item_mail{
+	background-color:  #41b9d4;
+	
+}
+
+.side-info__item_phone{
+	background-color:  #48cbe8;
+}
+
+.side-info__item_skype{
+	background-color:  #51daf8;
+	border-radius: 0 0 4px 4px;
+}
+
+.side-info__caption{
+	height: inherit;
+	background-color:  #3ba8c0;
+	border-radius: 4px 4px 0 0;
+	padding-left: 20px;
+}
+
