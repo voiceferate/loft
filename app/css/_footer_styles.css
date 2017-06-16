@@ -1,0 +1,19 @@
+.main-footer{
+	position: relative;
+	max-width: 1200px;
+	min-height: 77px;
+	margin: 0 auto;
+	background-color: #eff3f7;
+}
+
+.footer__login-btn{
+	position: absolute;
+	left: 20%;
+	top: 50%;
+	margin-top: -16px;
+}
+
+.footer__text{
+	text-align: center;
+	line-height: 4.7em;
+}
