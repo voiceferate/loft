@@ -1,10 +1,12 @@
 .left-panel{
 	display: inline-block;
 	width: 26%;
+	vertical-align: top;
 }
 
 .side-nav__list{
 	list-style: none;
+	margin-bottom: 23px;
 }
 
 .side-nav__list-item{

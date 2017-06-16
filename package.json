@@ -15,9 +15,6 @@
     "gulp-cssnano": "^2.1.2",
     "gulp-rename": "^1.2.2",
     "gulp-watch": "^4.3.11",
-    "rigger": "^0.5.10"
-  },
-  "dependencies": {
     "gulp-file-include": "^1.1.0"
   }
 }
