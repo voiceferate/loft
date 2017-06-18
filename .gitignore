@@ -1,7 +1,7 @@
 node_modules
 bower_components
-.gitattributes
-.gitignore
-.htaccess
+dist/
 
+.htaccess
+1gulpfile.js
 

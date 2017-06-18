@@ -1,4 +1,0 @@
-AddDefaultCharset Off
-<IfModule dir_module>
-    DirectoryIndex dist/index.html
-</IfModule>
