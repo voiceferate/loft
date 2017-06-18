@@ -1,3 +1,95 @@
 .main-info{
+	width: 100%;
 	display: inline-block;
+	vertical-align: top;
+	background-color: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 1.625em;
+	color: #4a545d;
+}
+
+.info-header{
+	font-size: 1.6875em;
+	color: #3ba8c0;
+	height: 1.875em;
+	padding: 0 22px;
+	border-bottom: 2px solid #3ba8c0;
+	display: inline-block;
+}
+
+.main-info__wrapper{
+	padding: 0 50px 50px 50px;
+}
+
+.main-info__img{
+	display: inline-block;
+	width: 9.575em;
+	vertical-align: top;
+}
+
+.main-info__img img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 2px solid #3ba8c0;
+}
+
+.main-info__list{
+	display: inline-block;
+	padding-left: 20px;
+	margin-bottom: 25px;
+	list-style: none;
+}
+
+.main-info__list-item{
+	height: 100%;
+	line-height: 46px;
+}
+
+.main-info__text{
+	font-size: .95em;
+}
+
+.main-info__text_bolder{
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-right: 13px;
+}
+
+.skils-list{
+	display: inline-block;
+	list-style: none;
+	width: 193px;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+}
+
+.skils-list__item{
+	display: inline-block;
+	height: 19px;
+	background-image: linear-gradient(to top, #2e8ca2 0%, #2e8ca2 52%, #3ba8c0 53%, #3ba8c0 100%);
+	border-radius: 2px;
+	padding: 0 13px;
+	line-height: 19px;
+	margin-bottom: 9px;
+	margin-right: 8px;
+	font-size: 0.6875em;
+	color: #fff;
+}
+
+.info-list{
+	list-style: none;
+	padding-left: 58px;
+}
+
+.info-list__item{
+	padding-left: 54px;
+	margin-bottom: 30px;
+	font-size: 1.0625em;
+}
+
+.info-list__date{
+	display: block;
+	font-size: 0.8823529411764706em;
 }

@@ -9,10 +9,10 @@ body{
 	margin: 0 auto;
 }
 
-.section-wrapper{
+.s-section-wrapper{
 	display: inline-block;
-	width: 40em;
-	margin-left: 60px;
+	width: 40.5em;
+	margin-left: 56px;
 }
 
 p {
